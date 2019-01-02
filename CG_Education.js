@@ -44,8 +44,7 @@ console.log('Teacher Ratings: ' + teacherRating);
 const getRatingAvg = (teacherRating) => teacherRating.reduce((a, b) => a + b) / teacherRating.length;
 console.log(Math.round(getRatingAvg([3.5, 1.0, 5.0])))
 
-
-const getAverageRating = (teacherRating) => teacherRating.reduce ((a, b) => a + b) / teacherRating.length;
+/*const getAverageRating = (teacherRating) => teacherRating.reduce ((a, b) => a + b) / teacherRating.length;
 
 
 console.log(Math.round(getAverageRating(teacherRating)));
@@ -97,4 +96,4 @@ if (deptCourses === 'Visual Art', 'Physics and Astronomy', 'Biology'){
 } else if (deptCourses !== 'Visual Art', 'Physics and Astronomy', 'Biology'){
   prompt(`Which department would you like to to see available classes? Please enter the department name.`);
   alert(`These courses are available in this department: ${filterCourses(deptCourses)}`);
-}
+}*/
